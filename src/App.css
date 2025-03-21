@@ -55,16 +55,17 @@ select {
   border-radius: 8px;
   border: 1px solid var(--border);
   background-color: var(--card-bg);
+  color: var(--text-primary); /* Explicitly set text color */
   font-size: 1rem;
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
   appearance: none;
 }
 
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+/* Optional: Improve contrast for better visibility */
+input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.8;
 }
 
 input:focus,
