@@ -55,7 +55,8 @@ select {
   border-radius: 8px;
   border: 1px solid var(--border);
   background-color: var(--card-bg);
-  color: var(--text-primary); /* Explicitly set text color */
+  color: var(--text-primary);
+  /* Explicitly set text color */
   font-size: 1rem;
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
